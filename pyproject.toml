@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pysoundings"
+version = "0.1.0"
+description = ""
+authors = ["dkllrjr <dg.kllr.jr@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+bs4 = "^0.0.1"
+requests = "^2.25.1"
+lxml = "^4.6.2"
+pandas = "^1.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
