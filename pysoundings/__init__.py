@@ -9,7 +9,7 @@ from pysoundings.main import *
 
 
 __docformat__ = 'numpy'
-__version__ = '0.1.0'
+__version__ = '0.1.3'
 
 
 def get_data(stnm, year, month, day_hour):
